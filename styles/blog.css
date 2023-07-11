@@ -1,0 +1,311 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+/* header related styles */
+.header {
+    height: 850px;
+    background-color: #E554731A;
+    back
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 960px;
+}
+
+.banner .flower-pic-header {
+    width: 635px;
+    height: 800px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.banner-description {
+    display: flex;
+    width: 634px;
+}
+
+/* main section styles */
+.main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main section {
+    margin-top: 130px;
+}
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-inf {
+    text-align: center;
+}
+
+.info-title {
+    text-decoration-color: #474747
+}
+
+.info-description {
+    text-decoration-color: #757575;
+}
+
+/* skills related styles */
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skills {
+    padding: 30px;
+    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+
+}
+
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background: #FFF;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+
+.section-two-top{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section-two-bottom-box{
+    width: 640px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 80px;
+
+}
+.box-image{
+    align-items: center;
+    width: 310px;
+    height: 428px;
+    margin-left: 172px;
+    margin-top: 107px;
+}
+
+.box-text{
+    text-align: center;
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+.section-two-bottom{
+    display: flex;
+}
+
+.section-three{
+    width: 1440px;
+    height: 320px;
+    width: 1440px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 120px 100px 60px 270px;
+    display: flex;
+   
+}
+
+.section-three-box{
+    margin-left: 100px;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+
+.box-three-text{
+color: rgba(39, 39, 39, 0.80);
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+text-align: center;
+}
+
+.box-three-image{
+    width: 88px;
+    height: 88px;
+    padding-left: 90px;
+
+}
+
+.section-four{
+    width: 1922px;
+    height: 450px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-left:80px;
+    margin-right: 120px;
+    
+
+
+}
+.section-four-text{
+    display: flex;
+}
+.section-four-text-one{
+    text-align: center;
+    margin-top: 120px;
+    margin-left:80px ;
+    padding: 40px;
+}
+.section-four-image-one{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.section-five-bottom{
+    display: flex;
+    margin-left: 250px;
+
+}
+.section-five-img{
+    margin: 20px;
+}
+
+.section-six{
+    background-image: url("../images/Rectangle\ 9.png");
+    width: 1440px;
+    height: 449px;
+    margin-left: 250px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.section-six-bottom{
+    display: flex;
+    margin: 60px;
+
+
+}
+.section-six-top{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-section{
+    text-align: center;
+    padding-top: 80px;
+    background-color: #181818;
+    width: 1922px;
+    height: 300px;
+
+}
+.footer-para-one{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.footer-para-two{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-heading{
+    color: white;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+
+
+
